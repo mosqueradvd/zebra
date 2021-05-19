@@ -238,7 +238,17 @@ header > nav > span > img {
 footer {
   height: auto;
   background-color: #000000;
-  position: absolute;
+  color: white;
   bottom: 0;
   width: 100%;
+  display: flex;
+  margin-top: 385%;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer__links ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
 }
