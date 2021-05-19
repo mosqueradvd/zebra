@@ -1,0 +1,244 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0px;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+header {
+  padding: 1em;
+  height: 60px;
+}
+
+header > nav > span > img {
+  width: 107px;
+  height: 35px;
+}
+
+.container > section {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.copy__section {
+  background-color: black;
+}
+
+.copy__section--container {
+  display: flex;
+  padding: 2em;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.copy__section--container h1 {
+  font-size: 28px;
+  color: #00a7ff;
+  line-height: 30px;
+  font-weight: 400;
+  margin-bottom: 11px;
+  font-family: "Montserrat";
+}
+
+.copy__section--container h2 {
+  font-size: 24px;
+  color: #ffffff;
+  line-height: 32px;
+  font-weight: 400;
+  margin-bottom: 22px;
+  font-family: "Montserrat";
+}
+
+.copy__section--container p {
+  font-size: 16px;
+  color: #ffffff;
+  line-height: 24px;
+  font-weight: 400;
+  margin-bottom: 2px;
+  font-family: "Montserrat";
+}
+
+.copy__section--container button {
+  width: 195px;
+  height: 50px;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 21px;
+  border: none;
+  align-items: center;
+  background-color: #00a7ff;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.content__section--copy h1 {
+  width: 196px;
+  height: 56px;
+  font-family: "Montserrat";
+  font-size: 26px;
+  font-weight: 400;
+  line-height: 28px;
+  margin-bottom: 10px;
+}
+
+.content__section--copy h2 {
+  height: 32px;
+  font-family: "Montserrat";
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 32px;
+  margin-bottom: 10px;
+}
+
+.content__section--copy p {
+  width: 320px;
+  height: 144px;
+  font-family: "Montserrat";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  margin-bottom: 3em;
+  display: inline-flex;
+}
+
+.content__section--copy button {
+  width: 195px;
+  height: 50px;
+  color: #ffffff;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 19px;
+  border: none;
+  align-items: center;
+  background-color: #00a7ff;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.c1,
+.c2,
+.c3,
+.copy__section--container,
+.content__section--copy,
+.ourwork__section--container {
+  width: 100%;
+  min-width: 150px;
+  height: 150px;
+}
+
+.c1 {
+  height: 50px;
+  background-color: #003476;
+}
+
+.c2 {
+  width: 50%;
+  height: 285px;
+  background-color: #0062d2;
+}
+
+.c3 {
+  width: 50%;
+  height: 285px;
+  color: black;
+  background-color: #b4d2f7;
+}
+
+.copy__section--container {
+  width: 100%;
+  height: auto;
+}
+
+.content__section--copy {
+  padding: 2em;
+  height: auto;
+}
+
+.ourwork__section--container {
+  width: 100%;
+  padding: 2em;
+}
+
+.content__section--copy form > label > input {
+  width: 320px;
+  height: 50px;
+  border: solid 1px #cccccc;
+  background: #ffffff;
+  margin-bottom: 1em;
+  padding: 19px 17px 19px;
+}
+
+.content__section--cta p {
+  width: 290px;
+  height: 96px;
+  color: #333333;
+  font-family: "Montserrat";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16px;
+  margin-left: 10px;
+}
+
+.content__section--cta img {
+  margin-top: 5em;
+  filter: drop-shadow(2px 4px 6px black);
+}
+
+.ourwork__section h1 {
+  width: 321px;
+  height: 74px;
+  font-family: "Montserrat";
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 37px;
+  margin-bottom: 2em;
+}
+
+.ourwork__section--card h2 {
+  width: 319px;
+  height: 44px;
+  font-family: "Montserrat";
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 22px;
+  margin: 1em 0em 1em;
+}
+
+.ourwork__section p {
+  width: 309px;
+  height: 113px;
+  font-family: "Montserrat";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22px;
+  margin-bottom: 1em;
+}
+
+.ourwork__section button {
+  width: 219px;
+  height: 48px;
+  background: #00a7ff;
+  color: #ffffff;
+  font-family: "Montserrat";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 21px;
+  text-align: center;
+  letter-spacing: 1px;
+  border: none;
+  margin-bottom: 1em;
+}
+
+footer {
+  height: auto;
+  background-color: #000000;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}

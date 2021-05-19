@@ -1,0 +1,25 @@
+.container,
+header {
+  width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.c1 {
+  width: 100%;
+}
+
+.c2 {
+  width: 70%;
+}
+
+.c3 {
+  width: 30%;
+}
+.c4 {
+  width: 33%;
+}
+
+.c5 {
+  width: 34%;
+}
